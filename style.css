@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter, sans-serif;
+}
+.nav {
+    width: 100vw;
+    height: 44px;
+    background-color: rgba(245, 245, 247, 0.80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.burger {
+    display: none;
+}
+.header {
+    width: 100%;
+    height: 52px;
+    color: #1D1D1F;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.big-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.big-content1 {
+    height: 692px;
+    width: 100vw;
+    background-image: url(./images/16pro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big-content2 {
+    height: 692px;
+    width: 100vw;
+    background-image: url(./images/16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big-content3 {
+    height: 692px;
+    width: 100vw;
+    background-image: url(./images/gift.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.iphone {
+    margin-top: 55px;
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.iphone-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.iphone-txt1 {
+    height: 60px;
+    color: #F5F5F7;
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+}
+.iphone-txt2 {
+    height: 32px;
+    color: #F5F5F7;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.28px;
+}
+.iphone-button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.iphone-button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid #0071E3;
+    background-color: #0071E3;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.374px;
+}
+.iphone-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid #2997FF;
+    color: #2997FF;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.374px;
+}
+.iphone2-button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.374px;
+}
+.iphone2-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.374px;
+}
+.iphone3-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid #0071E3;
+    background-color: #0071E3;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.374px;
+    margin-bottom: 82px;
+}
+.iphone3-txt1 {
+    height: 60px;
+    color: black;
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+}
+.iphone3-txt2 {
+    height: 32px;
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.28px;
+}
+/* tablet size */
+@media (max-width: 768px) {
+    body {
+        gap: 12px;
+    }
+    .burger {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav {
+        width: calc(100vw - 30px);
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header {
+        width: 440px;
+    }
+}
+ /* phone size */
+@media (max-width: 390px) {
+     .header {
+        width: 320px;
+        height: 73px;
+     }
+}
