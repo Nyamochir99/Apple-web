@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Inter, sans-serif;
+  gap: 12px;
 }
 .nav {
   width: 100vw;
@@ -193,6 +194,192 @@ body {
   font-weight: 300;
   letter-spacing: -0.28px;
 }
+.small-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.small {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    gap: 12px;
+}
+.small-content1 {
+    background-image: url(./images/small1.jpg);
+    width: calc(50% - 6px);
+    background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.small-content2 {
+    background-image: url(./images/small2.jpg);
+    width: calc(50% - 6px);
+    background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-content3 {
+    background-image: url(./images/small3.jpg);
+    width: calc(50% - 6px);
+    background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-content4 {
+    background-image: url(./images/small4.jpg);
+    width: calc(50% - 6px);
+    background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-content5 {
+    background-image: url(./images/small5.jpg);
+    width: calc(50% - 6px);
+    background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-content6 {
+    background-image: url(./images/small6.jpg);
+    width: calc(50% - 6px);
+    background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  margin-top: 48px;
+  width: 322px;
+}
+.small-txt1 {
+    height: 44px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    color: #1D1D1F;
+}
+.small-txt2 {
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    color: #1D1D1F;
+}
+.small-button {
+    display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.small-button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 100px;
+  border: 1px solid #0071e3;
+  background-color: #0071e3;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.374px;
+}
+.small-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 26px;
+  border-radius: 100px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.374px;
+}
+.small1-txt1 {
+    background-image: url(./images/ipadair.png);
+    height: 33px;
+    width: 430px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 9px;
+}
+.color-txt {
+    width: 169px;
+    height: 18px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    bottom: 50px;
+}
+.small2-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  margin-top: 401px;
+}
+.small2-color {
+    color: #F5F5F7;
+}
+.small3-txt1 {
+    width: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.small3-watch1 {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+.small3-watch1txt {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.small3-watch2 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.small3-txt2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    color: #1D1D1F;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
 /* tablet size */
 @media (max-width: 768px) {
   body {
@@ -264,6 +451,144 @@ body {
     font-weight: 300;
     letter-spacing: -0.28px;
   }
+  .small {
+    height: 490px;
+    background-size: cover; 
+  }
+  .small-pic {
+    background-size: cover;
+  }
+  .small-content3 {
+    background-image: url(./images/watch10.jpg);
+    width: calc(50% - 6px);
+    background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .small-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  margin-top: 42px;
+  width: 241px;
+}
+.small-txt1 {
+    height: 36px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #1D1D1F;
+}
+.small-txt2 {
+    height: 23px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    color: #1D1D1F;
+}
+.small-button {
+    display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.small-button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1px solid #0071e3;
+  background-color: #0071e3;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.374px;
+}
+.small-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.374px;
+}
+.small1-txt1 {
+    background-image: url(./images/ipadair.png);
+    width: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 9px;
+}
+.color-txt {
+    width: 169px;
+    height: 18px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    bottom: 36px;
+}
+.small2-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  margin-top: 330px;
+}
+.small2-color {
+    color: #F5F5F7;
+}
+.small3-txt1 {
+    width: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.small3-watch1 {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+.small3-watch1txt {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.small3-watch2 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.small3-txt2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    color: #1D1D1F;
+    line-height: 25px;
+    margin-bottom: 16px;
+    width: 285px;
+}
+.small-txt2-1 {
+    width: 360px;
+}
 }
 /* phone size */
 @media (max-width: 390px) {
@@ -317,6 +642,7 @@ body {
     font-size: 18px;
     font-weight: 300;
     letter-spacing: -0.28px;
+    text-align: center;
   }
   .big-content1 {
     height: 500px;
@@ -343,6 +669,7 @@ body {
     width: 100vw;
     background-image: url(./images/gift.jpg);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -425,5 +752,16 @@ body {
   }
   .iphone3 {
     margin-top: 0;
+    margin-bottom: 36px;
+  }
+  .small {
+    height: auto;
+    background-size: cover; 
+    flex-direction: column;
+  }
+  .small-pic {
+    height: 500px;
+    width: auto;
+    background-size: cover;
   }
 }
