@@ -419,7 +419,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: cover;
 }
 .movie2 {
   background-image: url(./images/movie2.jpg);
@@ -521,8 +520,170 @@ body {
 .circle:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+.animation {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.scroll-small {
+  height: 236px;
+  display: flex;
+  gap: 12px;
+  animation: s 20s linear infinite;
+}
+@keyframes s {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.arcade-app {
+  height: 236px;
+  min-width: 417px;
+}
+.app1 {
+  background-image: url(./images/scroll1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.app2 {
+  width: 196px;
+  height: 196px;
+  background-image: url(./images/scroll2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.app3 {
+  background-image: url(./images/scroll3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.app4 {
+  background-image: url(./images/scroll4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.app5 {
+  width: 196px;
+  height: 196px;
+  background-image: url(./images/scroll5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.app6 {
+  background-image: url(./images/scroll6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.app7 {
+  background-image: url(./images/scroll7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.app8 {
+  width: 196px;
+  height: 196px;
+  background-image: url(./images/scroll8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.app9 {
+  background-image: url(./images/scroll9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.fitness {
+  width: 90px;
+  fill: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.fitness-txt {
+  display: flex;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+  font-weight: 400;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 28px;
+  left: 20px;
+}
+.fitness-but {
+  padding: 10px 14px;
+  border-radius: 100px;
+  background-color: #f5f5f7;
+  font-size: 14px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.fitness-but:hover {
+  background-color: white;
+}
+.arcade-music {
+  height: 236px;
+  min-width: 417px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.music1 {
+  background-color: black;
+}
+.music2 {
+  background-color: #EB33C0;
+}
+.music3 {
+  background-color: #41616A;
+}
+.arcade2 {
+  width: 161px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+}
+.music-txt {
+  width: 161px;
+  display: flex;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+  font-weight: 400;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 236px;
+}
+.dood {
+  height: 60px;
+}
 /* tablet size */
-@media (max-width: 768px) {
+@media (max-width: 1070px) {
   body {
     gap: 12px;
   }
@@ -752,9 +913,59 @@ body {
     padding: 8px 14px;
     font-size: 14px;
   }
+  .scroll-small {
+    height: 161px;
+  }
+  .arcade-app {
+    height: 161px;
+    min-width: 286px;
+  }
+  .app2 {
+    width: 121px;
+    height: 121px;
+  }
+  .app5 {
+    width: 121px;
+    height: 121px;
+  }
+  .app8 {
+    width: 121px;
+    height: 121px;
+  }
+  .fitness {
+    width: 60px;
+    top: 10px;
+    right: 15px;
+  }
+  .fitness-txt {
+    font-size: 12px;
+    line-height: 16px;
+    left: 15px;
+    bottom: 15px;
+  }
+  .fitness-but {
+    font-size: 12px;
+    padding: 6px 10px;
+    bottom: 10px;
+    right: 15px;
+  }
+  .arcade-music {
+    height: 161px;
+    min-width: 286px;
+  }
+  .arcade2 {
+    height: 121px;
+    width: 105px;
+  }
+  .music-txt {
+    width: 105px;
+    font-size: 12px;
+    line-height: 16px;
+    left: 161px;
+  }
 }
 /* phone size */
-@media (max-width: 390px) {
+@media (max-width: 730px) {
   .header {
     width: 320px;
     height: 73px;
@@ -977,6 +1188,75 @@ body {
     text-align: center;
   }
   .tseg {
+    display: none;
+  }
+  .scroll-small {
+    height: 254px;
+  }
+  .arcade-app {
+    height: 254px;
+    min-width: 188px;
+  }
+  .app1 {
+    background-image: url(./images/scroll1-1.jpg);  
+  }
+  .app2 {
+    width: 122px;
+    height: 122px;
+    position: absolute;
+    top: 60px;
+  }
+  .app3 {
+    background-image: url(./images/scroll3-3.jpg);
+  }
+  .app4 {
+    background-image: url(./images/scroll4-4.jpg);
+  }
+  .app5 {
+    width: 122px;
+    height: 122px;
+    position: absolute;
+    top: 60px;
+  }
+  .app6 {
+    background-image: url(./images/scroll6-6.jpg);
+  }
+  .app7 {
+    background-image: url(./images/scroll7-7.jpg);
+  }
+  .app8 {
+    width: 122px;
+    height: 122px;
+    position: absolute;
+    top: 60px;
+  }
+  .app9 {
+    background-image: url(./images/scroll9-9.jpg);
+  }
+  .arcade-music {
+    height: 254px;
+    min-width: 188px;
+  }
+  .fitness {
+    width: 90px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .fitness-txt {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    width: calc(100% - 20px);
+    justify-content: center;
+  }
+  .fitness-but {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 15px;
+    height: 14px;
+  }
+  .music-txt {
     display: none;
   }
 }
