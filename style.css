@@ -27,6 +27,10 @@ body {
   font-weight: 400;
   letter-spacing: -0.28px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .icons {
   display: flex;
   justify-content: center;
@@ -146,6 +150,12 @@ body {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.374px;
+  transition: all 0.3s ease;
+}
+.iphone-button2:hover {
+  color: white;
+  background-color: #0071e3;
+  border: 1px solid #0071e3;
 }
 .iphone2-button1 {
   display: flex;
@@ -171,6 +181,12 @@ body {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.374px;
+  transition: all 0.3s ease;
+}
+.iphone2-button2:hover {
+  color: white;
+  background-color: #0071e3;
+  border: 1px solid #0071e3;
 }
 .iphone3-button {
   display: flex;
@@ -324,6 +340,12 @@ body {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.374px;
+  transition: all 0.3s ease;
+}
+.small-button2:hover {
+  color: white;
+  background-color: #0071e3;
+  border: 1px solid #0071e3;
 }
 .small1-txt1 {
   background-image: url(./images/ipadair.png);

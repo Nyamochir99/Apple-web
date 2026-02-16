@@ -557,8 +557,152 @@ body {
   min-width: 400px;
   height: 500px;
   align-items: flex-start;
-  background-image: url(./images2/sec4-1.jpeg);
+  background-image: url(./images2/sec4-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.solongo {
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sec5-1 {
+  background-image: url(./images2/sec5-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 140px;
+}
+.sec5-2 {
+  background-image: url(./images2/sec5-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec5-3 {
+  background-image: url(./images2/sec5-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec5-4 {
+  min-width: 400px;
+  height: 500px;
+  background-image: url(./images2/sec5-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec5-5 {
+  background-image: url(./images2/sec5-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec5-6 {
+  background-image: url(./images2/sec5-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec5-7 {
+  background-image: url(./images2/sec5-7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 140px;
+}
+.sec6-1 {
+  background-image: url(./images2/sec6-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 140px;
+}
+.sec6-2 {
+  background-image: url(./images2/sec6-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec6-3 {
+  background-image: url(./images2/sec6-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec6-4 {
+  background-image: url(./images2/sec6-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec6-5 {
+  background-image: url(./images2/sec6-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec6-6 {
+  background-image: url(./images2/sec6-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 140px;
+}
+.sec6-item {
+  min-width: 400px;
+  height: 500px;
+  scroll-snap-align: center;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+.sec6-item:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+.sec6-txt1 {
+  color: #86868b;
+}
+.sec6-txt2 {
+  color: white;
+}
+.sec7-head {
+  margin: 0 140px;
+  color: #1d1d1f;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.sec7-bot {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin: 0 140px 100px 140px;
+}
+.sec7-txt {
+  color: #1d1d1f;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid #1d1d1f;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+.sec7-txt:hover {
+  color: white;
+  background-color: #1d1d1f;
 }
