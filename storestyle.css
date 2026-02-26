@@ -240,13 +240,10 @@ body {
 .scroll {
   display: flex;
   gap: 20px;
-  overflow: auto;
+  overflow: visible;
   scrollbar-width: none;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-}
-.scroll ::-webkit-scrollbar {
-  display: none;
 }
 .scroll-jijig {
   display: flex;
@@ -254,9 +251,7 @@ body {
   scrollbar-width: none;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-}
-.scroll-jijig ::-webkit-scrollbar {
-  display: none;
+  overflow-y: hidden;
 }
 .sec1-item {
   min-width: 400px;
@@ -267,6 +262,7 @@ body {
   flex-direction: column;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
+  overflow: visible;
 }
 .sec1-item:hover {
   transform: scale(1.01);
