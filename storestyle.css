@@ -240,10 +240,12 @@ body {
 .scroll {
   display: flex;
   gap: 20px;
-  overflow: visible;
+  overflow: auto;
   scrollbar-width: none;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  overflow-y: hidden;
+  padding: 20px 0;
 }
 .scroll-jijig {
   display: flex;

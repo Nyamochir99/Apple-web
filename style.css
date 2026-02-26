@@ -550,6 +550,10 @@ a {
   display: flex;
   gap: 12px;
   animation: s 20s linear infinite;
+  transition: 0.3s ease;
+}
+.scroll-small:hover {
+  animation-play-state: paused;
 }
 @keyframes s {
   0% {
